@@ -12,10 +12,16 @@
 				var markerId = marker.id;
 				console.log('markerFound', markerId);
         if(markerId == 'marker'){
-          window.location.href="https://schasna.github.io/BA-AR/video.mp4";
+          window.location.href="https://schasna.github.io/BA-AR/du.mp4";
         }
 	if(markerId == 'marker2'){
           window.location.href="https://schasna.github.io/BA-AR/K.mp4";
+        }
+	if(markerId == 'marker3'){
+          window.location.href="https://schasna.github.io/BA-AR/salat.mp4";
+        }
+	if(markerId == 'marker4'){
+          window.location.href="https://schasna.github.io/BA-AR/versteh.mp4";
         }
 			});
 		}
@@ -30,6 +36,8 @@
 		<a-marker preset='custom' type='pattern' url='https://schasna.github.io/BA-AR/pattern-Hallo%20(4).patt' id='marker' registerevents>
 		</a-marker> <!-- add a simple camera -->
 		<a-marker preset='custom' type='pattern' url='https://schasna.github.io/BA-AR/pattern-Mark.patt' id='marker2' registerevents>
+		</a-marker> <!-- add a simple camera -->
+		<a-marker preset='custom' type='pattern' url='https://schasna.github.io/BA-AR/pattern-salat.patt' id='marker3' registerevents>
 		</a-marker> <!-- add a simple camera -->
 		<a-entity camera>
 		</a-entity>
